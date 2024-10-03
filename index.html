@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Carousel</title>
+    <link rel="icon" href="./img/favicon/favicon.ico" sizes="any" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta name="description" content="simple carousel" />
+    <meta name="theme-color" content="#d6d6d6" />
+  </head>
+  <body>
+    <header><h1>Simple Carousel</h1></header>
+    <main>
+      <section class="carousel">
+        <aside class="carousel_setting">
+          <label for="speedInput" class="setting_field speed"
+            ><input type="number" id="speedInput" value="2000" />
+            <span class="placeholder">Speed (ms)</span></label
+          >
+          <label
+            for="gapInput"
+            class="setting_field gap"
+            placeholder="Input Gap(px)"
+            ><input type="number" id="gapInput" value="20" />
+            <span class="placeholder">Gap (px)</span></label
+          >
+          <button
+            type="button"
+            class="apply_btn"
+            aria-label="setting slide speed and gap"
+          >
+            <b>Apply</b>
+          </button>
+        </aside>
+        <article class="carousel_contents">
+          <div class="slides" role="region" aria-label="Image Carousel"></div>
+          <div>
+            <nav class="indicators" aria-label="Carousel indicators"></nav>
+            <div class="handle_btns">
+              <button class="prev_btn" aria-label="Previous slide">
+                <img src="./img/icon_prev.svg" alt="Previous slide" />
+              </button>
+              <button class="toogle_auto_slide_btn" aria-label="Auto Slide">
+                <img src="./img/icon_pause.svg" alt="Toogle Auto Slide" />
+              </button>
+              <button class="next_btn" aria-label="Next slide">
+                <img src="./img/icon_next.svg" alt="Next slide" />
+              </button>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="./js/carousel.js"></script>
+  </body>
+</html>
