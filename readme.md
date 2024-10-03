@@ -45,6 +45,8 @@ yarn start
 ├─ webpack.config.prod.js
 ├─ package.json
 ├─ .gitignore
+├─ .eslintrc.cjs
+├─ .eslintignore
 ├─ .prettierrc.json
 └─ yarn.lock
 
