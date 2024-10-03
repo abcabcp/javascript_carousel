@@ -1,9 +1,8 @@
 
 ## Simple Carousel
-
 ---
 
-JavaScript, HTML 및 CSS를 사용한 캐러셀 슬라이더</br>
+JavaScript, HTML, CSS를 사용한 캐러셀 슬라이더</br>
 자동 슬라이드, 터치 스와이프 내비게이션, 속도 및 간격 조정, 동적 인디케이터 생성 등의 기능을 구현
 
 | ![Image 1](./readme/img_01.png) | ![Image 2](./readme/img_02.png) |
